@@ -3,8 +3,8 @@
 
 /* Root Variables */
 :root {
-  --primary: #ffcc00; /* Changed to yellow */
-  --primary-light: #ffea66; /* Lighter yellow */
+  --primary: #4b0082; /* Changed to indigo */
+  --primary-light: #6a28b6; /* Lighter indigo */
   --bg-light: #f8f9fc;
   --bg-dark: #ffffff;
   --text-dark: #1e293b;
@@ -48,7 +48,7 @@ header a {
 }
 
 header a:hover {
-  color: var(--primary); /* Hover color changed to yellow */
+  color: var(--primary); /* Hover color changed to indigo */
 }
 
 /* Homepage Layout */
@@ -80,8 +80,8 @@ header a:hover {
 }
 
 .sort-block select:focus {
-  border-color: var(--primary); /* Focus border color changed to yellow */
-  box-shadow: 0 0 6px var(--primary); /* Focus shadow changed to yellow */
+  border-color: var(--primary); /* Focus border color changed to indigo */
+  box-shadow: 0 0 6px var(--primary); /* Focus shadow changed to indigo */
   outline: none;
 }
 
@@ -102,7 +102,7 @@ header a:hover {
 
 .workout-details h4 {
   font-size: 1.3rem;
-  color: var(--primary); /* Heading color changed to yellow */
+  color: var(--primary); /* Heading color changed to indigo */
 }
 
 .workout-details span {
@@ -117,7 +117,7 @@ header a:hover {
 }
 
 .workout-details span:hover {
-  background: var(--primary); /* Hover background changed to yellow */
+  background: var(--primary); /* Hover background changed to indigo */
   color: #fff;
 }
 
@@ -150,13 +150,13 @@ form input {
 }
 
 form input:focus {
-  border-color: var(--primary); /* Focus border color changed to yellow */
-  box-shadow: 0 0 6px var(--primary); /* Focus shadow changed to yellow */
+  border-color: var(--primary); /* Focus border color changed to indigo */
+  box-shadow: 0 0 6px var(--primary); /* Focus shadow changed to indigo */
   outline: none;
 }
 
 form button {
-  background: var(--primary); /* Button background changed to yellow */
+  background: var(--primary); /* Button background changed to indigo */
   border: 0;
   color: #fff;
   padding: 12px 15px;
@@ -167,7 +167,7 @@ form button {
 }
 
 form button:hover {
-  background: var(--primary-light); /* Hover background changed to lighter yellow */
+  background: var(--primary-light); /* Hover background changed to lighter indigo */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
 }
 
@@ -175,8 +175,8 @@ form button:hover {
 div.error {
   padding: 12px;
   background: #ffefef;
-  border: 1px solid var(--primary); /* Error border changed to yellow */
-  color: var(--primary); /* Error text color changed to yellow */
+  border: 1px solid var(--primary); /* Error border changed to indigo */
+  color: var(--primary); /* Error text color changed to indigo */
   border-radius: var(--radius);
 }
 
@@ -193,8 +193,8 @@ nav button {
 
 nav button {
   background: var(--bg-dark);
-  color: var(--primary); /* Button text color changed to yellow */
-  border: 2px solid var(--primary); /* Border changed to yellow */
+  color: var(--primary); /* Button text color changed to indigo */
+  border: 2px solid var(--primary); /* Border changed to indigo */
   padding: 8px 15px;
   border-radius: var(--radius);
   cursor: pointer;
@@ -202,6 +202,6 @@ nav button {
 }
 
 nav button:hover {
-  background: var(--primary); /* Hover background changed to yellow */
+  background: var(--primary); /* Hover background changed to indigo */
   color: #fff;
 }
